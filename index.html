@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook clone</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-slate-100">
+    <main
+      class="flex justify-evenly flex-col p-4 min-h-screen md:flex-row md:justify-evenly md:items-center"
+    >
+      <div
+        class="first flex flex-col items-center md:justify-start max-w-lg md:w-2/3"
+      >
+        <img
+          class="w-2/3 max-w-sm md:self-start"
+          src="/resources/facebook-logo.svg"
+          alt="facebook"
+        />
+        <p class="text-center sm:text-2xl md:text-start md:self-start md:ml-10">
+          Facebook helps you connect and share with the people in your life.
+        </p>
+      </div>
+      <div class="second md:w-2/3 max-w-md">
+        <form
+          action="#"
+          class="relative space-y-4 mx-auto bg-white p-4 rounded-lg flex flex-col justify-center items-center drop-shadow-lg max-w-screen-sm md:m-6"
+        >
+          <input
+            class="p-2.5 w-full border-2 rounded-lg outline-blue-500 outline-1"
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Email address or Phone number"
+          />
+          <input
+            class="p-2.5 w-full border-2 rounded-lg outline-blue-500 outline-1"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+          <button
+            type="button"
+            class="bg-blue-500 w-full p-2.5 rounded-md font-bold text-white"
+          >
+            Log in
+          </button>
+          <span class="text-blue-500 hover:underline"
+            >Forgotten Password ?</span
+          >
+          <hr />
+          <button
+            type="button"
+            class="bg-green-600 p-2.5 rounded-md font-bold text-white"
+          >
+            Create New Account
+          </button>
+          <p class="absolute -bottom-10 text-sm text-center">
+            <span class="font-bold">Create a Page</span> for a celebrity, brand
+            or business
+          </p>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
